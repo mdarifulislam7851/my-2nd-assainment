@@ -117,13 +117,14 @@ li a{
   height: 30px;
 }
 .main{
+  border: 2px solid tomato;
   position: absolute;
   display: flex;
   justify-content: space-between;
   width: 1140px;
   height: 597px;
   margin-top: 200px;
-  margin-left:700px;
+  margin-left:50px;
   align-items: center;
   gap: 50px;
 }
@@ -218,20 +219,20 @@ li a{
 }
 
 .input{
-  margin-top:1000px;
-  margin: 0 auto;
-
+  width: 1140px;
+  height: 430px;
+  margin:0 auto;
+ 
 }
 .input-div-img{
-  position: static;
-  height: 533px;
-  width: 1440px;
-  margin: 0 auto;
-  }
+  margin:0 auto;
+  height: 430px;
+  width: 1140px;
+}
 .input-div{
-  position: absolute;
-  margin-top:-400px;
-  margin-left:900px;
+  height: 200px;
+  text-align: center;
+  margin-top: -400px;
 }
 .input-email{
   font-size: 15px;
@@ -249,9 +250,9 @@ li a{
 .footer{
   display: flex;
   justify-content: space-around;
-  width: 1440px;
+  width: 1140px;
   height:348px;
-  margin:0 auto ;
+  margin:0px auto;
   
 }
 .footer1{
