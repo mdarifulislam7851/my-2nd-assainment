@@ -9,7 +9,7 @@
 .navbar{
     display: flex;
     justify-content: space-between;
-    width: 1140px;
+    max-width: 1140px;
     height:100px;
     font-size: 15px;
     margin: 0 auto;
@@ -35,7 +35,7 @@ li a{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1140px;
+  max-width: 1140px;
   height: 461px;
   margin: 100px auto;
 }
@@ -57,7 +57,7 @@ li a{
   text-align: center;
   align-items: center;
   margin: 0 auto;
-  width: 1140px;
+  max-width: 1140px;
   height:250px ;
   gap: 10px;
   
@@ -69,7 +69,7 @@ li a{
 .card-body{
   margin: 0 auto;
   display: flex;
-  width: 1140px;
+  max-width: 1140px;
   height: 350px;
   gap: 10px;
 }
@@ -94,7 +94,7 @@ li a{
 .card-bottom{
   margin: 70px auto;
   display: flex;
-  width: 1140px;
+  max-width: 1140px;
   height: 350px;
   gap:10px;
 }
@@ -117,11 +117,11 @@ li a{
   height: 30px;
 }
 .main{
-  border: 2px solid tomato;
+
   position: absolute;
   display: flex;
   justify-content: space-between;
-  width: 1140px;
+  max-width: 1140px;
   height: 597px;
   margin-top: 200px;
   margin-left:50px;
@@ -149,7 +149,7 @@ li a{
   text-align: center;
   align-items: center;
   margin:1000px auto;
-  width: 1140px;
+  max-width: 1140px;
   height:250px ;
   gap: 10px;
 }
@@ -160,7 +160,7 @@ li a{
 .banner-section{
   display: flex;
   height: 500px;
-  width: 1140px;
+  max-width: 1140px;
   margin-top: -1000px;
   margin-bottom: 0;
   margin-left: auto;
@@ -169,7 +169,7 @@ li a{
   
 }
 .banner{
-  width: 1140px;
+  max-width: 1140px;
   height:400px;
 }
 
@@ -219,7 +219,7 @@ li a{
 }
 
 .input{
-  width: 1140px;
+  max-width: 1140px;
   height: 430px;
   margin:0 auto;
  
@@ -227,7 +227,7 @@ li a{
 .input-div-img{
   margin:0 auto;
   height: 430px;
-  width: 1140px;
+  max-width: 1140px;
 }
 .input-div{
   height: 200px;
@@ -250,7 +250,7 @@ li a{
 .footer{
   display: flex;
   justify-content: space-around;
-  width: 1140px;
+  max-width: 1140px;
   height:348px;
   margin:0px auto;
   
@@ -291,4 +291,11 @@ li a{
   display: flex;
   width: 30px;
   gap: 50px;
+}
+@media (max-width:1140) and (min-width:997) {
+  
+}
+@media (max-width:572){
+
+  
 }
